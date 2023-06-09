@@ -257,8 +257,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.3;
   padding: 90px 0; }
+.bg-image {
+  opacity: 0.3; }
 
 .container {
   width: 1400px;
