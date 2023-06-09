@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration - Psalmos Choir</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/signup-img.jpg" alt="">
+		    <br><br><br><br><p> Psalmos Choir is a something something bla bla bla... </p>
+		    <p>...</p>
+		    <p> More description about the choir here eshi teku? </p>
+		    <p> <b>ወይንም በአማርኛ የተሰወነ ሀሳብ ስለኳየሩ</b> </p>
+                </div>
+                <div class="signup-form">
+                    <form action="php/action.php" method="POST" class="register-form" id="register-form">
+                        <h2>Members registration form</h2>
+			<h2>የአባላት መመዝገቢያ ቅጽ</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">የአባሉ ስም :</label>
+                                <input type="text" name="name" id="name" required/>
+                            </div>
+                            <div class="form-group">
+                                <label for="father_name">የአባት ስም :</label>
+                                <input type="text" name="father_name" id="father_name" required/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">ስልክ ቁጥር :</label>
+                            <input type="number" name="phone" id="phone" required/>
+                        </div>
+                        <div class="form-radio">
+                            <label for="gender" class="radio-label">ጾታ :</label>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="male" checked>
+                                <label for="male">ወንድ</label>
+                                <span class="check"></span>
+                            </div>
+                            <div class="form-radio-item">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">ሴት</label>
+                                <span class="check"></span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="state">የስራ መደብ :</label>
+                                <div class="form-select">
+                                    <select name="state" id="state">
+                                        <option value="member">የኳየሩ አባል</option>
+                                        <option value="leader">አስተባባሪ ኮሚቴ</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city">አሁናዊ አድራሻ :</label>
+                                <div class="form-select">
+                                    <select name="city" id="city">
+                                        <option value="local">ሀላባ ውስጥ</option>
+                                        <option value="outsider">ከሀላባ ውጭ</option>
+                                        <option value="outsider">ከኢትዮጵያ ውጭ</option>
+                                    </select>
+                                    <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="birth_date">የትውልድ ቀን :</label>
+                            <input type="date" name="birth_date" id="birth_date">
+                        </div>
+                        <div class="form-group">
+                            <label for="joinDate">ኳየሩን የተቀላቀሉበት ቀን :</label>
+                            <input type="date" name="joinDate" id="joinDate">
+                        </div>
+                        <div class="form-group">
+                            <label for="course">የሆነ ጥያቄ :</label>
+                            <div class="form-select">
+                                <select name="course" id="course">
+                                    <option value="">ምርጫ አንድ</option>
+                                    <option value="computer">ምርጫ ሁለት</option>
+                                    <option value="desiger">ምርጫ ሶስት</option>
+                                    <option value="marketing">ምርጫ አራት</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">ኢሜይል | Email ID :</label>
+                            <input type="email" name="email" id="email" />
+                        </div>
+                        <div class="form-submit">
+                            <input type="reset" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<footer>
+   <div style="text-align:right;">
+	<p style="font-family: Verdana"> &copy 2023 <a href="#"> Psalmos Choir </a>
+	<br> Made with &#10084; by <a href="https://t.me/yeabuca"><b>WAJO</b>design.</a> </p>
+   </div>
+</footer>
+</html>
