@@ -253,13 +253,13 @@ body {
   line-height: 1.8;
   color: #222;
   font-weight: 400;
-  backgrund-img: url(images/pnuuuug-signup-img.png);
+  background-img: url(images/pnuuuug-signup-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0; }
 .bg-image {
-  opacty: 0.3; }
+  opacity: 0.3; }
 
 .container {
   width: 1400px;
