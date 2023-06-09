@@ -254,7 +254,10 @@ body {
   color: #222;
   font-weight: 400;
   background-img: url(images/pnuuuug signup-img);
-  background: #282828;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
   padding: 90px 0; }
 
 .container {
